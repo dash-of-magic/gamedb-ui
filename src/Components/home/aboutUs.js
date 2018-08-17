@@ -13,27 +13,26 @@ const AboutUs = () => (
     <Grid.Row>
       <Grid.Column width={8}>
         <Header as='h3' style={{ fontSize: '2em' }}>
-          We Help Companies and Companions
+          We help you keep upto date
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          We can give your company superpowers to do things that they never thought possible.
-          Let us delight your customers and empower your needs... through pure data analytics.
+          We can give you the latest news for all the games you follow.
         </p>
         <Header as='h3' style={{ fontSize: '2em' }}>
-          We Make Bananas That Can Dance
+          Track all your favorite games
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-          bioengineered.
+          Add all your favourite games to your profile and keep your track of your progress.
+        </p>
+        <Header as='h3' style={{ fontSize: '2em' }}>
+          Keep in contact with all your Friends
+        </Header>
+        <p style={{ fontSize: '1.33em' }}>
+          Stay conected with your friends and see their progress
         </p>
       </Grid.Column>
       <Grid.Column floated='right' width={6}>
-        <Image bordered rounded size='large' src='/images/wireframe/white-image.png' />
-      </Grid.Column>
-    </Grid.Row>
-    <Grid.Row>
-      <Grid.Column textAlign='center'>
-        <Button size='huge'>Check Them Out</Button>
+        <Image rounded size='large' src='/images/game-controller.svg' />
       </Grid.Column>
     </Grid.Row>
   </Grid>

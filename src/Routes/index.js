@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
-import HomepageLayout from '../Pages/home'
+import HomePage from '../Pages/home'
 
 class Router extends Component {
     constructor(props) {
@@ -11,7 +11,7 @@ class Router extends Component {
         return (
             <BrowserRouter>
                 <Switch>
-                    <Route exact path='/' component={ HomepageLayout } />
+                    <Route exact path='/' component={ HomePage } />
                     <Redirect from='*' to='/' />
                 </Switch>
             </BrowserRouter>
