@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import {
   Responsive,
   Visibility,
@@ -47,9 +48,11 @@ class DesktopContainer extends Component {
                   Home
                 </Menu.Item>
                 <Menu.Item position='right'>
-                  <Button as='a' inverted={!fixed} color='green'>
+                <Link to="login">
+                  <Button inverted={!fixed} color='blue'>
                     Log in
                   </Button>
+                </Link>
                   <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
                     Register
                   </Button>

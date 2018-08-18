@@ -22,7 +22,7 @@ const AboutUs = () => (
           Track all your favorite games
         </Header>
         <p style={{ fontSize: '1.33em' }}>
-          Add all your favourite games to your profile and keep your track of your progress.
+          Add all your favourite games to your collection and keep track of your progress.
         </p>
         <Header as='h3' style={{ fontSize: '2em' }}>
           Keep in contact with all your Friends
